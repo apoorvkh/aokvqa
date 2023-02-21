@@ -3,7 +3,7 @@ import pathlib
 import json
 import glob
 
-from load_aokvqa import load_aokvqa
+from .load_dataset import load_aokvqa
 
 
 def eval_aokvqa(dataset, preds, multiple_choice=False, strict=True):
